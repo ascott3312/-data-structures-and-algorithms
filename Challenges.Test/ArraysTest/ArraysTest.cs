@@ -1,4 +1,6 @@
 ﻿using System;
+using Challenges.Arrays;
+using Xunit;
 
 
 namespace Challenges.Test.ArraysTest
@@ -6,11 +8,20 @@ namespace Challenges.Test.ArraysTest
 {
     public class ArraysTest
     {
-        public ArraysTest()
+        [Fact]
+        public static void CanReverseArrayTest()
+
         {
+            //Arrange
                 int[] arrayToReverse = new[] { 1, 2, 3, 4, 5 };
-                int[] reversed = ReverseArray(arrayToReverse);
-                Console.WriteLine(String.Join(",", reversed));
+
+            //Act
+
+                int[] reversed = Reverse.ReverseArray(arrayToReverse);
+
+            //Assert
+
+                Assert.Equal(new int[] {5, 4, 3, 2, 1 }, reversed);
             }
         
     }
