@@ -16,4 +16,7 @@
   <ItemGroup>
     <Folder Include="ArraysTest\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Challenges\Challenges.csproj" />
+  </ItemGroup>
 </Project>
