@@ -6,7 +6,6 @@ namespace Challenges.Arrays
     {
         public ArrayShift()
         {
-            insertShiftArray
         }
     }
 }
