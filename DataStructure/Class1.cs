@@ -1,26 +1,15 @@
-﻿using System;
-
-namespace DataStructures.LinkedLists
+﻿namespace DataStructures.LinkedLists
 {
-    public class LinkedList
+    public class Node
     {
-        public Node Head { get; set; }
+        /// <summary>
+        /// Value of this node.
+        /// </summary>
+        public int Value { get; set; }
 
-        public void Insert(int value)
-        {
-            // TODO
-        }
-
-        public bool Includes(int value)
-        {
-            // TODO
-            return false;
-        }
-
-        public override string ToString()
-        {
-            // TODO
-            return "NULL";
-        }
+        /// <summary>
+        /// Pointer to the next node in the list.
+        /// </summary>
+        public Node Next { get; set; }
     }
 }
