@@ -4,7 +4,7 @@
 - [01 - array-reverse](https://github.com/ascott3312/-data-structures-and-algorithms/pull/4}
 - [02 - insertShiftArray]{}
 - [03 - BinarySearch]{}
-- [04 - Mock Interviews]{}
+- [04 - Tic-Tac-Toe]{}
 - [05 - ArrayShift]{https://github.com/ascott3312/-data-structures-and-algorithms/pull/6}
 - [06 - Linked List]
 
