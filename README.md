@@ -1,9 +1,12 @@
 # -data-structures-and-algorithms
 
 ## Table of Contents
-- Challenges Folder (Reverse Array method)Reverse.cs
-- Challenges.Test (Unit Testing on the Reverese Array)Array.cs
-- Challenges.ArrayShift.cs
+- [01 - array-reverse](https://github.com/ascott3312/-data-structures-and-algorithms/pull/4}
+- [02 - insertShiftArray]{}
+- [03 - BinarySearch]{}
+- [04 - Mock Interviews]{}
+- [05 - ArrayShift]{https://github.com/ascott3312/-data-structures-and-algorithms/pull/6}
+- [06 - Linked List]
 
 
 ## Author
