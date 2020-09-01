@@ -1,4 +1,4 @@
-using System;
+using DataStructures.LinkedLists;
 using Xunit;
 
 namespace DataStructures.Tests.LinkedLists
@@ -9,29 +9,29 @@ namespace DataStructures.Tests.LinkedLists
         public void LinkedList_starts_empty()
         {
             // Act
-            LinkedListTests list = new LinkedListTests();
+            LinkedList list = new LinkedList();
 
             // Assert
             Assert.Equal("NULL", list.ToString());
         }
 
-        [Fact]
+        [Fact(Skip = "TODO for students")]
         public void Insert_adds_value_to_start()
         {
             // Arrange
-            LinkedListTests list = new LinkedListTests();
+            LinkedList list = new LinkedList();
 
             // Act
-            list.Equals(1);
+            list.Insert(1);
 
             // Assert
-            Assert.Equal("", list.ToString());
+            Assert.Equal("{ 1 } -> NULL", list.ToString());
 
             // Act
-            list.Equals(2);
+            list.Insert(2);
 
             // Assert
-            Assert.Equal("", list.ToString());
+            Assert.Equal("{ 2 } -> { 1 } -> NULL", list.ToString());
         }
     }
 }
