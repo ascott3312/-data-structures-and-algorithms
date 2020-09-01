@@ -5,7 +5,7 @@ namespace Challenges.Arrays
     public class ArrayShift
     {
         public ArrayShift
-        {
+       
           (ArrayShift [0] = 2;
           ArrayShift [1] = 4;
           ArrayShift [2] = 6;
@@ -18,5 +18,5 @@ namespace Challenges.Arrays
           ArrayShift[3] = 42;
           ArrayShift[4] = 15;)
           
-        }
+       
     }
